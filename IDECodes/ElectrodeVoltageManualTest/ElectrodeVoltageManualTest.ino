@@ -19,6 +19,6 @@ void setup() {
 
 void loop() {
   // Keep the signal constant.
-  digitalWrite(VoltageCircuit, LOW);
+  digitalWrite(VoltageCircuit, HIGH);
   digitalWrite(LED_PIN, HIGH);
 }
